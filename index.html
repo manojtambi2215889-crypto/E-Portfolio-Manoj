@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T M Manoj | AI & Data Science Student</title>
+    <meta name="description" content="Portfolio website of T M Manoj, B.Tech AI & DS student at REVA University, showcasing projects, skills, and achievements.">
+    <meta name="keywords" content="T M Manoj, AI Student, Data Science Portfolio, REVA University, B.Tech AI DS, Skill Bridge Project, Python Developer">
+    
+    <!-- Open Graph / Social Sharing Meta -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="T M Manoj | AI & Data Science Student">
+    <meta property="og:description" content="Explore my portfolio showcasing machine learning projects, data science workflows, and B.Tech achievements at REVA University.">
+    <meta property="og:image" content="assets/profile.png">
+    
+    <!-- Stylesheet -->
+        <link rel="stylesheet" href="style.css">
+    
+    <!-- Favicon (Fallback) -->
+    <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
+</head>
+<body>
+
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress"></div>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="container navbar">
+            <a href="#home" class="nav-logo" id="brand-logo">
+                <span>Manoj</span>.T
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu" role="navigation" aria-label="Main Navigation">
+                <a href="#home" class="nav-link active" id="nav-item-home">Home</a>
+                <a href="#about" class="nav-link" id="nav-item-about">About</a>
+                <a href="#skills" class="nav-link" id="nav-item-skills">Skills</a>
+                <a href="#projects" class="nav-link" id="nav-item-projects">Projects</a>
+                <a href="#education" class="nav-link" id="nav-item-education">Education</a>
+                <a href="#certifications" class="nav-link" id="nav-item-certs">Certifications</a>
+                <a href="#blog" class="nav-link" id="nav-item-blog">Blog</a>
+                <a href="#contact" class="nav-link" id="nav-item-contact">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle-btn" aria-label="Toggle light and dark mode">
+                    <i data-lucide="sun" id="theme-icon-sun" class="theme-icon"></i>
+                    <i data-lucide="moon" id="theme-icon-moon" class="theme-icon" style="display:none;"></i>
+                </button>
+                <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Open Mobile Menu" aria-expanded="false">
+                    <i data-lucide="menu" id="menu-icon-hamburger"></i>
+                    <i data-lucide="x" id="menu-icon-close" style="display:none;"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        
+        <!-- Hero Section -->
+        <section id="home">
+            <div class="container hero-grid">
+                <div class="hero-content reveal-element">
+                    <div class="hero-badge">Welcome to my Portfolio</div>
+                    <h1 class="hero-title">Hi, I'm <span>T M Manoj</span></h1>
+                    <div class="hero-tagline">AI & Data Science Student | Technology Enthusiast | Problem Solver</div>
+                    <p class="hero-description">
+                        I am a B.Tech student specializing in Artificial Intelligence and Data Science at REVA University. I enjoy building analytical models, deploying intelligent systems, and merging tech capability with strategic business execution.
+                    </p>
+                    <div class="hero-ctas">
+                        <a href="#projects" class="btn btn-primary" id="hero-btn-projects">
+                            <i data-lucide="briefcase"></i> View Projects
+                        </a>
+                        <a href="#resume" class="btn btn-secondary" id="hero-btn-resume">
+                            <i data-lucide="file-text"></i> Resume Preview
+                        </a>
+                        <a href="#contact" class="btn btn-secondary" id="hero-btn-contact" style="border-color: var(--color-accent); color: var(--color-accent);">
+                            <i data-lucide="mail"></i> Let's Talk
+                        </a>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </section>
+
+        <!-- Statistics Counter Bar -->
+        <section class="stats-section" id="stats">
+            <div class="container">
+                <div class="glass-panel stats-grid">
+                    <div class="stat-card" id="stat-completed-projects">
+                        <div class="stat-number" data-target="8">0</div>
+                        <div class="stat-label">Projects Built</div>
+                    </div>
+                    <div class="stat-card" id="stat-case-studies">
+                        <div class="stat-number" data-target="12">0</div>
+                        <div class="stat-label">Data Models Run</div>
+                    </div>
+                    <div class="stat-card" id="stat-leadership-roles">
+                        <div class="stat-number" data-target="3">0</div>
+                        <div class="stat-label">Team Project Leads</div>
+                    </div>
+                    <div class="stat-card" id="stat-gpa">
+                        <div class="stat-number" data-target="89" data-decimals="2" data-prefix="8.">0</div>
+                        <div class="stat-label">Cumulative CGPA</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about">
+            <div class="container">
+                <div class="section-header reveal-element">
+                    <h2>About Me</h2>
+                    <p>Fusing technical data science capabilities with collaborative management to design smart solutions.</p>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-narrative reveal-element">
+                        <h3>Passionate about tech, innovation, and analysis</h3>
+                        <p>
+                            I am T M Manoj, a B.Tech student specializing in Artificial Intelligence and Data Science at REVA University. I am passionate about technology, innovation, problem-solving, and applying AI-driven solutions to real-world challenges.
+                        </p>
+                        <p>
+                            I enjoy working on academic and startup projects that combine business thinking with technology. By leveraging programming frameworks and strategic project timelines, I aim to create tangible solutions that improve user experience and organizational efficiency.
+                        </p>
+                        
+                        <div class="core-pillars">
+                            <div class="glass-panel pillar-card" id="pillar-strategy">
+                                <div class="pillar-icon"><i data-lucide="brain"></i></div>
+                                <h4>Artificial Intelligence</h4>
+                                <p>Building machine learning architectures and data telemetry loops.</p>
+                            </div>
+                            <div class="glass-panel pillar-card" id="pillar-leadership">
+                                <div class="pillar-icon"><i data-lucide="trending-up"></i></div>
+                                <h4>Business Strategy</h4>
+                                <p>Connecting technical algorithms directly to product viability.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="glass-panel edu-overview-card reveal-element">
+                        <h3><i data-lucide="graduation-cap"></i> Academic Education</h3>
+                        <div class="edu-timeline-brief">
+                            <div class="edu-brief-item" id="edu-wharton">
+                                <div class="ebb-year">2025 — 2029</div>
+                                <div class="ebb-title">B.Tech in Artificial Intelligence & Data Science</div>
+                                <div class="ebb-school">REVA University</div>
+                                <div class="ebb-details">Focus on predictive analytics, python scripting, neural networks, and database optimization. Active technology event participant.</div>
+                            </div>
+                            <div class="edu-brief-item" id="edu-harvard">
+                                <div class="ebb-year">2025 — 2029</div>
+                                <div class="ebb-title">Pre-University College Education</div>
+                                <div class="ebb-school">PCMC Stream</div>
+                                <div class="ebb-details">Strong core foundation in mathematics, physics, and computer science elements.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <div class="container">
+                <div class="section-header reveal-element">
+                    <h2>Skills & Technologies</h2>
+                    <p>Quantitative development skills balanced with team management and communication competencies.</p>
+                </div>
+
+                <div class="skills-wrapper">
+                    <!-- Business Strategy & Analytics Card -->
+                    <div class="glass-panel skills-category reveal-element" id="skills-cat-strategy">
+                        <h3>Technical & AI Skills</h3>
+                        <div class="skills-list">
+                            <div class="skill-item" id="skill-ai">
+                                <div class="skill-info">
+                                    <span class="skill-name">Artificial Intelligence</span>
+                                    <span class="skill-percentage">88%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" data-width="88%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" id="skill-ml">
+                                <div class="skill-info">
+                                    <span class="skill-name">Machine Learning Models</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" data-width="85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" id="skill-data-science">
+                                <div class="skill-info">
+                                    <span class="skill-name">Data Science Workflows</span>
+                                    <span class="skill-percentage">82%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" data-width="82%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" id="skill-python">
+                                <div class="skill-info">
+                                    <span class="skill-name">Python Programming</span>
+                                    <span class="skill-percentage">92%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" data-width="92%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" id="skill-data-analysis">
+                                <div class="skill-info">
+                                    <span class="skill-name">Data Analysis & Visualization</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" data-width="85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Professional Competencies Card -->
+                    <div class="glass-panel skills-category reveal-element" id="skills-cat-pro">
+                        <h3>Strategy & Leadership</h3>
+                        <div class="skills-list">
+                            <div class="skill-item" id="skill-problem-solving">
+                                <div class="skill-info">
+                                    <span class="skill-name">Problem Solving</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" data-width="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" id="skill-presentations">
+                                <div class="skill-info">
+                                    <span class="skill-name">Presentation & Speaking Skills</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" data-width="85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" id="skill-collaboration">
+                                <div class="skill-info">
+                                    <span class="skill-name">Team Collaboration</span>
+                                    <span class="skill-percentage">92%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" data-width="92%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" id="skill-biz-strategy">
+                                <div class="skill-info">
+                                    <span class="skill-name">Business Strategy Logic</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" data-width="80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" id="skill-project-mgmt">
+                                <div class="skill-info">
+                                    <span class="skill-name">Project Management</span>
+                                    <span class="skill-percentage">82%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" data-width="82%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <div class="container">
+                <div class="section-header reveal-element">
+                    <h2>Academic & Startup Projects</h2>
+                    <p>Building functional tools that connect coding capabilities with organizational value.</p>
+                </div>
+
+                <div class="projects-filter reveal-element">
+                    <button class="filter-btn active" data-filter="all" id="btn-filter-all">All Projects</button>
+                    <button class="filter-btn" data-filter="platforms" id="btn-filter-plat">Platforms</button>
+                    <button class="filter-btn" data-filter="analytics" id="btn-filter-analysis">AI & Analytics</button>
+                    <button class="filter-btn" data-filter="business" id="btn-filter-business">Business Tech</button>
+                </div>
+
+                <div class="projects-grid reveal-element" id="projects-grid">
+                    
+                    <!-- Project 1: Skill Bridge (Featured Project) -->
+                    <div class="glass-panel project-card" data-category="platforms" id="project-card-startup">
+                        <div class="project-img-box">
+                            <img src="assets/project-startup.png" alt="Skill Bridge Dashboard Preview" loading="lazy">
+                            <span class="project-category-badge">Career Platform</span>
+                        </div>
+                        <div class="project-body">
+                            <h3>Skill Bridge</h3>
+                            <p class="project-desc">
+                                A platform designed to connect students with recruiters and career opportunities. Focuses on improving student employability metrics, skill development tracking, and recruitment processing efficiency.
+                            </p>
+                            <div class="project-outcome">
+                                <div class="project-outcome-title"><i data-lucide="check-circle-2" style="font-size: 0.8rem; display: inline-block; vertical-align: middle;"></i> Role & Outcome</div>
+                                <div class="project-outcome-text">Team Member & Project Contributor. Designed the core platform concept and matching logic.</div>
+                            </div>
+                            <div class="project-tools">
+                                <span class="tool-tag">React.js</span>
+                                <span class="tool-tag">Node.js</span>
+                                <span class="tool-tag">Recruitment Tech</span>
+                                <span class="tool-tag">User Flow</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="#contact" class="btn btn-primary" id="proj-1-demo"><i data-lucide="external-link"></i> View Project</a>
+                                <a href="https://github.com" target="_blank" rel="noopener" class="btn btn-secondary" id="proj-1-code"><i data-lucide="github"></i> Repository</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: AI Predictive Modeling -->
+                    <div class="glass-panel project-card" data-category="analytics" id="project-card-market">
+                        <div class="project-img-box">
+                            <img src="assets/project-market.png" alt="AI Demand Forecaster Visualization" loading="lazy">
+                            <span class="project-category-badge">Artificial Intelligence</span>
+                        </div>
+                        <div class="project-body">
+                            <h3>Predictive Demand Modeler</h3>
+                            <p class="project-desc">
+                                Created an AI forecasting model using Python libraries to analyze regional retailer transaction data, predicting seasonal inventory replenishment cycles.
+                            </p>
+                            <div class="project-outcome">
+                                <div class="project-outcome-title"><i data-lucide="check-circle-2" style="font-size: 0.8rem; display: inline-block; vertical-align: middle;"></i> Outcome</div>
+                                <div class="project-outcome-text">Achieved 87% prediction accuracy in forecasting FMCG product inventory stockouts.</div>
+                            </div>
+                            <div class="project-tools">
+                                <span class="tool-tag">Python</span>
+                                <span class="tool-tag">Scikit-Learn</span>
+                                <span class="tool-tag">Pandas</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="#contact" class="btn btn-primary" id="proj-2-demo"><i data-lucide="external-link"></i> Analytics Demo</a>
+                                <a href="https://github.com" target="_blank" rel="noopener" class="btn btn-secondary" id="proj-2-code"><i data-lucide="github"></i> Codebase</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: Tech-Market Analytics -->
+                    <div class="glass-panel project-card" data-category="business" id="project-card-finance">
+                        <div class="project-img-box">
+                            <img src="assets/project-finance.png" alt="Competitor Dashboards Preview" loading="lazy">
+                            <span class="project-category-badge">Market Intelligence</span>
+                        </div>
+                        <div class="project-body">
+                            <h3>Competitor Analytics Tracker</h3>
+                            <p class="project-desc">
+                                Implemented automated web-scraping script maps that monitor pricing changes and technology integrations for local SaaS startups, reporting data on dynamic Tableau pipelines.
+                            </p>
+                            <div class="project-outcome">
+                                <div class="project-outcome-title"><i data-lucide="check-circle-2" style="font-size: 0.8rem; display: inline-block; vertical-align: middle;"></i> Outcome</div>
+                                <div class="project-outcome-text">Delivered real-time competitive analysis to 3 regional student-incubated businesses.</div>
+                            </div>
+                            <div class="project-tools">
+                                <span class="tool-tag">BeautifulSoup</span>
+                                <span class="tool-tag">Tableau</span>
+                                <span class="tool-tag">Market Strategy</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="#contact" class="btn btn-primary" id="proj-3-demo"><i data-lucide="external-link"></i> View Dashboard</a>
+                                <a href="https://github.com" target="_blank" rel="noopener" class="btn btn-secondary" id="proj-3-code"><i data-lucide="github"></i> Python Files</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: Interactive NLP Agent -->
+                    <div class="glass-panel project-card" data-category="analytics" id="project-card-case">
+                        <div class="project-img-box">
+                            <img src="assets/project-cases.png" alt="NLP Agent Interface Layout" loading="lazy">
+                            <span class="project-category-badge">Natural Language Processing</span>
+                        </div>
+                        <div class="project-body">
+                            <h3>Campus Business FAQ Agent</h3>
+                            <p class="project-desc">
+                                Formulated an intelligent LLM chatbot assistant specializing in answering students' queries on university startup program guidelines, resources, and applications.
+                            </p>
+                            <div class="project-outcome">
+                                <div class="project-outcome-title"><i data-lucide="check-circle-2" style="font-size: 0.8rem; display: inline-block; vertical-align: middle;"></i> Outcome</div>
+                                <div class="project-outcome-text">Successfully handled and categorized over 400 user inquiries during testing.</div>
+                            </div>
+                            <div class="project-tools">
+                                <span class="tool-tag">LangChain</span>
+                                <span class="tool-tag">HuggingFace</span>
+                                <span class="tool-tag">Vector DB</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="#contact" class="btn btn-primary" id="proj-4-demo"><i data-lucide="external-link"></i> Live Agent</a>
+                                <a href="https://github.com" target="_blank" rel="noopener" class="btn btn-secondary" id="proj-4-code"><i data-lucide="github"></i> Materials</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Academic Experience Timeline -->
+        <section id="education">
+            <div class="container">
+                <div class="section-header reveal-element">
+                    <h2>Education & Academic Milestones</h2>
+                    <p>Chronological display of B.Tech study programs, leadership posts, and technical internships.</p>
+                </div>
+
+                <div class="timeline reveal-element">
+                    
+                    <div class="timeline-item timeline-left" id="time-item-reva">
+                        <div class="glass-panel timeline-panel">
+                            <div class="timeline-date">Sept 2025 — 2029</div>
+                            <h3>REVA University</h3>
+                            <div class="timeline-sub">B.Tech in Artificial Intelligence & Data Science</div>
+                            <div class="timeline-details">
+                                Currently pursuing undergraduate studies. Cumulative CGPA: 8.9/10.0.
+                                <ul>
+                                    <li><i data-lucide="check"></i> <strong>Coursework:</strong> Machine Learning, Python Scripting, Database Management Systems, Neural Networks, Strategic Planning.</li>
+                                    <li><i data-lucide="check"></i> <strong>Events:</strong> Competed in campus hackathons and tech exhibitions.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item timeline-right" id="time-item-skill-bridge">
+                        <div class="glass-panel timeline-panel">
+                            <div class="timeline-date">Jan 2026 — Present</div>
+                            <h3>Skill Bridge Platform Contributor</h3>
+                            <div class="timeline-sub">Collaborative Student Project</div>
+                            <div class="timeline-details">
+                                Co-designed the database relationships and algorithm metrics for student employability matchmaking.
+                                <ul>
+                                    <li><i data-lucide="check"></i> Mapped matching vectors to align student skill profiles directly to recruiter needs.</li>
+                                    <li><i data-lucide="check"></i> Contributed to presentation pitches for university validation reviews.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item timeline-left" id="time-item-pu">
+                        <div class="glass-panel timeline-panel">
+                            <div class="timeline-date">June 2021 — May 2023</div>
+                            <h3>Pre-University College</h3>
+                            <div class="timeline-sub">PCMC Stream | Higher Secondary Education</div>
+                            <div class="timeline-details">
+                                Graduated with distinction honors.
+                                <ul>
+                                    <li><i data-lucide="check"></i> Completed core curriculums in advanced mathematics, physics, and computer logic.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications">
+            <div class="container">
+                <div class="section-header reveal-element">
+                    <h2>Certifications</h2>
+                    <p>Industry-standard credentials verified by leading corporate and analysis organizations.</p>
+                </div>
+
+                <div class="certs-grid reveal-element">
+                    
+                    <!-- Cert 1 -->
+                    <div class="glass-panel cert-card" id="cert-card-ml">
+                        <div class="cert-icon"><i data-lucide="cpu"></i></div>
+                        <h3>AI & ML Foundations</h3>
+                        <div class="cert-issuer">REVA Technical Academy</div>
+                        <div class="cert-date">Issued Feb 2026</div>
+                        <a href="https://www.reva.edu.in" target="_blank" rel="noopener" class="btn btn-text" id="cert-ml-verify">
+                            Verify Credential <i data-lucide="arrow-up-right" style="width: 14px; height: 14px;"></i>
+                        </a>
+                    </div>
+
+                    <!-- Cert 2 -->
+                    <div class="glass-panel cert-card" id="cert-card-python">
+                        <div class="cert-icon"><i data-lucide="code-2"></i></div>
+                        <h3>Python for Data Science</h3>
+                        <div class="cert-issuer">IBM | Coursera</div>
+                        <div class="cert-date">Issued Oct 2025</div>
+                        <a href="https://coursera.org" target="_blank" rel="noopener" class="btn btn-text" id="cert-py-verify">
+                            Verify Credential <i data-lucide="arrow-up-right" style="width: 14px; height: 14px;"></i>
+                        </a>
+                    </div>
+
+                    <!-- Cert 3 -->
+                    <div class="glass-panel cert-card" id="cert-card-data">
+                        <div class="cert-icon"><i data-lucide="database"></i></div>
+                        <h3>Data Science Professional</h3>
+                        <div class="cert-issuer">Google | Coursera</div>
+                        <div class="cert-date">Issued Aug 2025</div>
+                        <a href="https://coursera.org" target="_blank" rel="noopener" class="btn btn-text" id="cert-data-verify">
+                            Verify Credential <i data-lucide="arrow-up-right" style="width: 14px; height: 14px;"></i>
+                        </a>
+                    </div>
+
+                <div class="glass-panel cert-card" id="cert-card-ibm">
+                    <div class="cert-icon"><i data-lucide="award"></i></div>
+                    <h3>IBM Data Science Professional Certificate</h3>
+                    <div class="cert-issuer">IBM</div>
+                    <div class="cert-date">Issued Jan 2026</div>
+                    <a href="C:/Users/manoj/OneDrive/IBM1.pdf" target="_blank" rel="noopener" class="btn btn-text" id="cert-ibm-verify">
+                        View Certificate <i data-lucide="arrow-up-right" style="width: 14px; height: 14px;"></i>
+                    </a>
+                </div>
+                    <div class="glass-panel cert-card" id="cert-card-participation">
+                        <div class="cert-icon"><i data-lucide="award"></i></div>
+                        <h3>Certificate of Participation</h3>
+                        <div class="cert-issuer">REVA University</div>
+                        <div class="cert-date">Issued Dec 2025</div>
+                        <a href="C:/Users/manoj/OneDrive/Certificate_of_Participation - T_M_Manoj.pdf" target="_blank" rel="noopener" class="btn btn-text" id="cert-participation-verify">
+                            View Certificate <i data-lucide="arrow-up-right" style="width: 14px; height: 14px;"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements">
+            <div class="container">
+                <div class="section-header reveal-element">
+                    <h2>Key Achievements</h2>
+                    <p>Highlighting leadership, competitive milestones, and campus contributions.</p>
+                </div>
+
+                <div class="achieve-grid reveal-element">
+                    
+                    <div class="glass-panel achieve-card" id="achieve-card-winner">
+                        <div class="achieve-icon-box"><i data-lucide="trophy"></i></div>
+                        <div class="achieve-text">
+                            <h3>Hackathon Finalist</h3>
+                            <p>Contributed logic to a campus-wide smart systems hackathon, developing an algorithmic classroom scheduling engine.</p>
+                        </div>
+                    </div>
+
+                    <div class="glass-panel achieve-card" id="achieve-card-dean">
+                        <div class="achieve-icon-box"><i data-lucide="award"></i></div>
+                        <div class="achieve-text">
+                            <h3>Academic First Class Distinction</h3>
+                            <p>Consistently recognized in the top tier of students in the Artificial Intelligence and Data Science department.</p>
+                        </div>
+                    </div>
+
+                    <div class="glass-panel achieve-card" id="achieve-card-president">
+                        <div class="achieve-icon-box"><i data-lucide="users"></i></div>
+                        <div class="achieve-text">
+                            <h3>Executive Member, AI & DS Association</h3>
+                            <p>Collaborated on student activities, managing scheduling logistics for seminars and guest speaker tech events.</p>
+                        </div>
+                    </div>
+
+                    <div class="glass-panel achieve-card" id="achieve-card-delegate">
+                        <div class="achieve-icon-box"><i data-lucide="globe"></i></div>
+                        <div class="achieve-text">
+                            <h3>Skill Bridge Core Concept Pitcher</h3>
+                            <p>Represented the team to pitch platform viability to REVA business incubation advisors.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials">
+            <div class="container">
+                <div class="section-header reveal-element">
+                    <h2>Recommendations & Feedback</h2>
+                    <p>What academic mentors and project team members say about working with me.</p>
+                </div>
+
+                <div class="testimonials-slider-container reveal-element" id="testimonials-slider">
+                    <div class="testimonials-track" id="testimonials-track">
+                        
+                        <!-- Slide 1 -->
+                        <div class="testimonial-slide glass-panel" id="t-slide-1">
+                            <p class="testimonial-quote">
+                                Manoj's commitment during the Skill Bridge platform development was exemplary. He designed robust data flow definitions that solved core matching friction points in our UI mockups.
+                            </p>
+                            <div class="testimonial-avatar">LC</div>
+                            <div class="testimonial-name">L. Chen</div>
+                            <div class="testimonial-title">Student Lead | Skill Bridge Development Team</div>
+                        </div>
+
+                        <!-- Slide 2 -->
+                        <div class="testimonial-slide glass-panel" id="t-slide-2">
+                            <p class="testimonial-quote">
+                                In our Artificial Intelligence courses, Manoj demonstrated strong analytical reasoning. He does not just write python scripts; he explores how business metrics fit into tech outputs.
+                            </p>
+                            <div class="testimonial-avatar">RK</div>
+                            <div class="testimonial-name">Dr. R. Kumar</div>
+                            <div class="testimonial-title">Department Professor | REVA University</div>
+                        </div>
+
+                        <!-- Slide 3 -->
+                        <div class="testimonial-slide glass-panel" id="t-slide-3">
+                            <p class="testimonial-quote">
+                                Working beside Manoj in the student association was a great experience. He handles project schedules with care and communicates data insights effectively to team groups.
+                            </p>
+                            <div class="testimonial-avatar">SK</div>
+                            <div class="testimonial-name">S. Kulkarni</div>
+                            <div class="testimonial-title">Secretary | REVA AI & DS Student Union</div>
+                        </div>
+
+                    </div>
+
+                    <div class="testimonials-nav">
+                        <button class="t-nav-btn" id="t-prev-btn" aria-label="Previous Testimonial">
+                            <i data-lucide="chevron-left"></i>
+                        </button>
+                        <button class="t-nav-btn" id="t-next-btn" aria-label="Next Testimonial">
+                            <i data-lucide="chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Blog Section -->
+        <section id="blog">
+            <div class="container">
+                <div class="section-header reveal-element">
+                    <h2>Tech & Data Insights</h2>
+                    <p>My analytical posts on data science concepts, python applications, and recruitment technology.</p>
+                </div>
+
+                <div class="blog-grid reveal-element">
+                    
+                    <!-- Blog 1 -->
+                    <article class="glass-panel blog-card" id="blog-card-1">
+                        <div class="blog-body">
+                            <span class="blog-tag">Recruitment Tech</span>
+                            <div class="blog-meta">
+                                <span><i data-lucide="calendar" style="width:12px;height:12px;display:inline-block;vertical-align:middle;"></i> May 12, 2026</span>
+                                <span><i data-lucide="clock" style="width:12px;height:12px;display:inline-block;vertical-align:middle;"></i> 5 min read</span>
+                            </div>
+                            <h3><a href="#contact" id="blog-link-1">Leveraging AI in Student Hiring</a></h3>
+                            <p class="blog-excerpt">
+                                Highlighting matching algorithms and vector representations used in career platforms like Skill Bridge to streamline hiring patterns.
+                            </p>
+                            <a href="#contact" class="btn-text" style="font-weight: 600; margin-top: auto; display: inline-flex; align-items: center; gap: 0.25rem;">
+                                Read Article <i data-lucide="arrow-right" style="width: 14px; height: 14px;"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Blog 2 -->
+                    <article class="glass-panel blog-card" id="blog-card-2">
+                        <div class="blog-body">
+                            <span class="blog-tag">Data Science</span>
+                            <div class="blog-meta">
+                                <span><i data-lucide="calendar" style="width:12px;height:12px;display:inline-block;vertical-align:middle;"></i> April 28, 2026</span>
+                                <span><i data-lucide="clock" style="width:12px;height:12px;display:inline-block;vertical-align:middle;"></i> 4 min read</span>
+                            </div>
+                            <h3><a href="#contact" id="blog-link-2">Data Science Workflows for Startups</a></h3>
+                            <p class="blog-excerpt">
+                                An introductory guide to organizing database queries and dashboard designs for student-run startup operations.
+                            </p>
+                            <a href="#contact" class="btn-text" style="font-weight: 600; margin-top: auto; display: inline-flex; align-items: center; gap: 0.25rem;">
+                                Read Article <i data-lucide="arrow-right" style="width: 14px; height: 14px;"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Blog 3 -->
+                    <article class="glass-panel blog-card" id="blog-card-3">
+                        <div class="blog-body">
+                            <span class="blog-tag">Python</span>
+                            <div class="blog-meta">
+                                <span><i data-lucide="calendar" style="width:12px;height:12px;display:inline-block;vertical-align:middle;"></i> March 15, 2026</span>
+                                <span><i data-lucide="clock" style="width:12px;height:12px;display:inline-block;vertical-align:middle;"></i> 6 min read</span>
+                            </div>
+                            <h3><a href="#contact" id="blog-link-3">Refactoring ML Models</a></h3>
+                            <p class="blog-excerpt">
+                                A checklist of clean-code Python protocols and testing pipelines to optimize scikit-learn training loops.
+                            </p>
+                            <a href="#contact" class="btn-text" style="font-weight: 600; margin-top: auto; display: inline-flex; align-items: center; gap: 0.25rem;">
+                                Read Article <i data-lucide="arrow-right" style="width: 14px; height: 14px;"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume">
+            <div class="container resume-container">
+                <div class="section-header reveal-element">
+                    <h2>Interactive Resume</h2>
+                    <p>Review my academic background directly or download a print-friendly text copy.</p>
+                </div>
+
+                <!-- Interactive Resume Preview Box -->
+                <div class="glass-panel resume-preview-box reveal-element" id="resume-preview">
+                    <div class="resume-header-bar">
+                        <div class="resume-dots">
+                            <span class="resume-dot rd-1"></span>
+                            <span class="resume-dot rd-2"></span>
+                            <span class="resume-dot rd-3"></span>
+                        </div>
+                        <div class="resume-bar-title">t_m_manoj_resume.txt</div>
+                        <div style="width: 48px;"></div> <!-- Spacer matching dots -->
+                    </div>
+                    
+                    <div class="resume-body-render" id="resume-scroller">
+                        <div style="text-align: center; margin-bottom: 2rem;">
+                            <h2>T M MANOJ</h2>
+                            <h3>AI & DATA SCIENCE B.TECH STUDENT</h3>
+                            <p style="font-size: 0.9rem; color: var(--text-muted);">Bangalore, India | manojtambi2215889@gmail.com | linkedin.com/in/t-m-manoj-portfolio</p>
+                        </div>
+                        
+                        <!-- Section: Education -->
+                        <div class="resume-render-section" id="res-sec-edu">
+                            <h4>Education</h4>
+                            <div class="resume-render-row">
+                                <div class="resume-row-meta">
+                                    <span class="resume-row-org">REVA UNIVERSITY</span>
+                                    <span class="resume-row-date">Expected June 2029</span>
+                                </div>
+                                <div class="resume-row-subtitle">B.Tech in Artificial Intelligence & Data Science</div>
+                                <ul class="resume-row-desc">
+                                    <li>Current CGPA: 8.9/10.0.</li>
+                                    <li>Focus areas: Neural networks, database optimization, Python script models.</li>
+                                    <li>Executive Member, Department Student Association.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Section: Professional Experience -->
+                        <div class="resume-render-section" id="res-sec-exp">
+                            <h4>Project Portfolios</h4>
+                            <div class="resume-render-row">
+                                <div class="resume-row-meta">
+                                    <span class="resume-row-org">SKILL BRIDGE PLATFORM</span>
+                                    <span class="resume-row-date">January 2026 — Present</span>
+                                </div>
+                                <div class="resume-row-subtitle">Project Contributor (Student Team Lead Partnership)</div>
+                                <ul class="resume-row-desc">
+                                    <li>Developed structured mockups and data relations for the student employability pipeline.</li>
+                                    <li>Coordinated with recruiters to verify skill requirements matching fields.</li>
+                                </ul>
+                            </div>
+                            <div class="resume-render-row">
+                                <div class="resume-row-meta">
+                                    <span class="resume-row-org">PREDICTIVE DEMAND FORECASTER</span>
+                                    <span class="resume-row-date">Autumn 2025</span>
+                                </div>
+                                <div class="resume-row-subtitle">AI Modeler (Academic Research Course)</div>
+                                <ul class="resume-row-desc">
+                                    <li>Built a python analytics pipeline parsing transactional values.</li>
+                                    <li>Implemented scikit-learn models achieving +15% forecast improvements.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Action Button for download -->
+                <a href="data:text/plain;charset=utf-8,T M Manoj B.Tech AI & DS Portfolio Resume%0AEmail: manojtambi2215889@gmail.com" download="t_m_manoj_resume.txt" class="btn btn-primary" id="btn-download-resume">
+                    <i data-lucide="download"></i> Download Resume File
+                </a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <div class="section-header reveal-element">
+                    <h2>Get In Touch</h2>
+                    <p>Have questions about Skill Bridge, research projects, or scheduling calls? Let's write.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="reveal-element">
+                        <div class="contact-info-list">
+                            
+                            <div class="contact-item" id="c-item-email">
+                                <div class="contact-icon-box"><i data-lucide="mail"></i></div>
+                                <div class="contact-text">
+                                    <h4>Email Manoj</h4>
+                                    <p><a href="mailto:manojtambi2215889@gmail.com">manojtambi2215889@gmail.com</a></p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item" id="c-item-loc">
+                                <div class="contact-icon-box"><i data-lucide="map-pin"></i></div>
+                                <div class="contact-text">
+                                    <h4>University Location</h4>
+                                    <p>REVA University, Bangalore, Karnataka, India</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="contact-socials">
+                            <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-circle" id="social-lnk-linkedin" aria-label="LinkedIn Profile">
+                                <i data-lucide="linkedin"></i>
+                            </a>
+                            <a href="https://github.com" target="_blank" rel="noopener" class="social-circle" id="social-lnk-github" aria-label="GitHub Profile">
+                                <i data-lucide="github"></i>
+                            </a>
+                            <a href="https://twitter.com" target="_blank" rel="noopener" class="social-circle" id="social-lnk-twitter" aria-label="Twitter Profile">
+                                <i data-lucide="twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form Card -->
+                    <div class="glass-panel contact-form-card reveal-element" id="contact-form-panel">
+                        <form class="contact-form" id="portfolio-contact-form" novalidate>
+                            
+                            <div class="form-group">
+                                <input type="text" id="form-name" class="form-input" placeholder="Your Name" required>
+                                <label for="form-name">Your Name</label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" id="form-email" class="form-input" placeholder="Your Email Address" required>
+                                <label for="form-email">Your Email Address</label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" id="form-subject" class="form-input" placeholder="Subject Topic" required>
+                                <label for="form-subject">Subject Topic</label>
+                            </div>
+
+                            <div class="form-group">
+                                <textarea id="form-message" class="form-input" placeholder="Write your message here..." required></textarea>
+                                <label for="form-message">Write your message here...</label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary" id="btn-submit-message" style="width: 100%;">
+                                <i data-lucide="send"></i> Send Message
+                            </button>
+
+                            <div class="form-status" id="form-status-box"></div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Timeline</a>
+                <a href="#certifications">Certs</a>
+                <a href="#blog">Blog</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <p>&copy; 2026 T M Manoj. All Rights Reserved. Built with custom HTML/CSS/JS.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top-btn" aria-label="Back to top">
+        <i data-lucide="arrow-up"></i>
+    </button>
+
+    <!-- Lucide Icon Library -->
+    <script src="https://cdn.jsdelivr.net/npm/lucide@0.344.0/dist/umd/lucide.min.js"></script>
+    
+    <!-- Application Logic -->
+        <script src="script.js"></script>
+</body>
+</html>
